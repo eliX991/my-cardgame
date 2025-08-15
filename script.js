@@ -52,7 +52,7 @@ for (let i = 0; i<=100; i++) {
 
     let speed = getRandomF(3, 5);
 
-    if (window.innerWidth <= 400){
+    if (window.innerWidth <= 900){
         speed = getRandomF(2, 3);
     };
     
@@ -79,4 +79,5 @@ function animate() {
 
 
 animate();
+
 
