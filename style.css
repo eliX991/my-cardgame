@@ -28,5 +28,6 @@ body {
     position: absolute;
     width: clamp( 200px, 80vw, 800px);
     height: 80vh;
-    border-radius: 20%;
+    border-radius: 10%;
+
 }
