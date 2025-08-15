@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: rgb(85, 83, 83);
+    --bg-color1: rgba(60, 60, 60, 0.9);
+}
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#canvas {
+    background-color: var(--bg-color);
+}
+
+.big-container {
+    background-color: var(--bg-color1);
+    position: absolute;
+    width: clamp( 200px, 80vw, 800px);
+    height: 80vh;
+    border-radius: 20%;
+}
