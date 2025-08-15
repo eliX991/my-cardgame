@@ -52,6 +52,11 @@ for (let i = 0; i<=100; i++) {
 
     let speed = getRandomF(3, 5);
 
+    if (window.innerWidth <= 400){
+        speed = getRandomF(2, 3);
+    };
+    
+
     balls.push(new Ball(ballX, ballY, 3, speed, speed));
 }
 
@@ -74,3 +79,4 @@ function animate() {
 
 
 animate();
+
