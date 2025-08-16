@@ -5,7 +5,7 @@
 
 :root {
     --bg-color: rgb(85, 83, 83);
-    --bg-color1: rgba(60, 60, 60, 0.9);
+    --bg-color1: rgba(60, 60, 60, 0.96);
 }
 
 html {
@@ -30,6 +30,7 @@ body {
     height: 80vh;
     border-radius: 2%;
 }
+
 
 
 
