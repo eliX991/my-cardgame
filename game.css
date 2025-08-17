@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("card-table.jpg");
+    background-position: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    border: 2px solid burlywood;
+    overflow: hidden;
+}
+
+.cardArea {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+img {
+    width: 90vw;
+    height: 90vh;
+}
